@@ -1,0 +1,23 @@
+{
+  "name": "mandal-masala-bhandar",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Online store and COD order management for Mandal Masala Bhandar, Kalitala, Beldanga",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "bash tests/run-all.sh",
+    "setup-sql": "bash scripts/build-setup-sql.sh"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
